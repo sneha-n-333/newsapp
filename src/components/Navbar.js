@@ -19,11 +19,13 @@ const Navbar = ({onSearch}) => {
      
       <select name="language">
           <option value="en">English</option>
-          <option value="es">Spanish</option>
-          <option value="fr">French</option>
-          <option value="de">German</option>
-          <option value="it">Italian</option>
-          <option value="pt">Portuguese</option>
+          <option value="hi">Hindi</option>
+          <option value="ta">Tamil</option>
+          <option value="ml">Malayalam</option>
+          <option value="te">Telugu</option>
+          <option value="kn">Kannada</option>
+          <option value="mr">Marathi</option>
+          <option value="gu">Gujarati</option>
       </select>
          <button className="btn btn-primary" type="submit">Search</button>
     </form>
